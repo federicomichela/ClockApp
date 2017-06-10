@@ -18,12 +18,12 @@ header, footer {
     background-color: black;
     clear: left;
     text-align: center;
+	left: 0px;
+    width: 100%;
 }
 header, section { padding: 10px;}
 footer { 
 	bottom: 0px;
-	left: 0px;
-	width: 100%;
 	height: 50px;
 	line-height: 50px;
 	position: fixed; 
@@ -36,8 +36,8 @@ section {
 a { color: #30aaf0; }
 
 .clock {
-  width: 30rem;
-  height: 30rem;
+  width: 15rem;
+  height: 15rem;
   border:20px solid #f3f3f3;
   border-radius:50%;
   margin:50px auto;

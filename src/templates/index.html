@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Clock Mini App</title>
+	
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>{{app_name}}</h1>
+			</header>
+	    	<section>
+	    		<div class="clock">
+				    <div class="clock-face">
+						<div class="hand hour-hand"></div>
+						<div class="hand min-hand"></div>
+						<div class="hand second-hand"></div>
+				    </div>
+			    </div>
+	    	</section>
+	    	<footer> Created by <a href="mailto:federico.michela@gmail.com">Michela Federico</a></footer>
+		</div>
+	</body>
+</html>
+{% endautoescape %}
